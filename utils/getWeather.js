@@ -1,3 +1,7 @@
+// Defines method for calling weather API using
+// location data
+
+//Importing required packages
 const request = require('request')
 
 const getWeather = (location, callback) => {

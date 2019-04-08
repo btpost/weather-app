@@ -1,3 +1,7 @@
+// Defines method for calling geocoding API to geocode
+// address string to location data
+
+// Importing required packages
 const request = require('request')
 
 const geocode = (address, callback) => {
